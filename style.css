@@ -1,0 +1,199 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(https://www.fontsquirrel.com/fonts/download/montserrat);
+}
+body {
+  background-image: url("antarctica.jpg");
+}
+a:link, a:visited {
+  background-color: #36bef4;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #033950;
+  color: white;
+  transform:scale(1.1,1.1);
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+a:hover {
+  size: 15px;
+  text-decoration: underline;
+}
+a:active {
+  resize: both 0.5;
+}
+
+
+
+
+.navbar {
+  margin-left: 7px; 
+  margin-top : 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  float: left;
+  font-size: 15px;
+  background-color: rgba(70,183,213,0.5);
+  border-radius: 5px;
+  overflow: hidden;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+#navpeng {
+  margin-left: 50px; 
+  margin-top : 20px;
+  float: left;
+}
+#navpeng2 {
+  margin-right: 50px; 
+  margin-top : 20px;
+  float: right;
+}
+
+
+#topnav,
+#topnav ul {
+    list-style: none;
+}
+
+#topnav {
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(70,183,213);
+    font-size: larger;
+    border-radius: 10px;
+
+}
+
+#topnav > li {
+    float: left;
+}
+
+#topnav li a {
+display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+
+#topnav ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#topnav ul li a {
+    width: 80px;
+}
+#topnav li:hover ul {
+    display: block;
+}
+
+#Home_Title {
+  font-size: 220px;
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  padding: 70px 0;
+  border: 10px solid #016064;
+  text-align: center;
+  padding: 10px;
+}
+
+#Welcome {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 75px;
+  color: black;
+  margin-left: 700px;
+}
+
+#slogan {
+  font-size: 70px;
+  color: black;
+  margin-left: 10px;
+  float: left;
+  margin-top: 120px;
+}
+
+#left_low_peng {
+  width: 27%;
+  height: auto;
+  float: left;
+}
+
+#right_low_peng {
+  width: 27%;
+  height: auto;
+  float: right;
+}
+
+#signup {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 400px;
+  margin-right: 30px;
+  margin-left: 300px;
+  margin-bottom: 250px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.copyright {
+  background-color: rgb(70,183,213);
+  padding: 1px;
+  position: sticky;
+  top: 2;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 70px;
+}
+
+div.copyright {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+
+
+
+h1.aboutus {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+}
+
+p.aboutus {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+#backtotop {
+  background-color: rgb(240, 240, 240);
+  text-decoration: rgb(0, 0, 0);
+  border-radius: 10px;
+  float: right;
+  border: 3px;
+  
+}
+
+
